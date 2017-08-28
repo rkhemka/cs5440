@@ -1,0 +1,5 @@
+var input = document.getElementById('searchTextField');
+var opts = {
+  types: ['(cities)']
+};
+autocomplete = new google.maps.places.Autocomplete(US, opts);
